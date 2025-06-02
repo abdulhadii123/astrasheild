@@ -375,7 +375,7 @@ ul {
   outline: none !important;
   font-weight: 600;
   font-size: 14px;
-  color: var(--erepair-black);
+  color: #fff;
   background-color: var(--erepair-primary);
   padding: 15.5px 36px 15.5px;
   border-radius: 12px;
@@ -471,7 +471,7 @@ ul {
   animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/astra.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 60px auto;
