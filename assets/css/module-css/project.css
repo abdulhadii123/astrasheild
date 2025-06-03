@@ -415,7 +415,7 @@
 }
 
 .project-details__title-2 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 58px;
     letter-spacing: -1.44px;
@@ -444,7 +444,7 @@
 }
 
 .project-details__title-3 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 58px;
     letter-spacing: -1.44px;
@@ -622,8 +622,12 @@
     margin-top: 30px;
 }
 
-
-
+.text-project{
+    font-size: 20px;
+}
+.project-details__text-2{
+    font-size: 20px;
+}
 
 /*--------------------------------------------------------------
 # End
