@@ -2317,7 +2317,8 @@
 .your_order {
     position: relative;
     display: block;
-    padding-top: 55px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .your_order .title {
@@ -2332,13 +2333,18 @@
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 32px;
-}
+    color: red;
 
+}
+.table{
+    padding-top: 30px;
+}
 .order_table_box {
     position: relative;
     width: 100%;
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 23px;
+    border-bottom: none;
 }
 
 .order_table_detail {
@@ -2370,15 +2376,15 @@
 }
 
 .order_table_detail tbody td.pro__title {
-    color: var(--erepair-gray);
-    font-size: 16px;
+    color: black;
+    font-size: 20px;
     line-height: 18px;
     font-weight: 400;
 }
 
 .order_table_detail tbody td.pro__price {
-    color: var(--erepair-gray);
-    font-size: 16px;
+    color: black;
+    font-size: 20px;
     line-height: 18px;
     text-align: right;
     font-weight: 400;

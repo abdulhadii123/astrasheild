@@ -622,6 +622,7 @@
 .service-details__left {
     position: relative;
     display: block;
+    padding-bottom: 40px;
 }
 
 .service-details__img {
@@ -640,7 +641,6 @@
     font-weight: 600;
     line-height: 58px;
     letter-spacing: -1.44px;
-    margin-top: 41px;
     margin-bottom: 30px;
 }
 
