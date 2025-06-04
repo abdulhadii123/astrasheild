@@ -155,6 +155,11 @@
     display: block;
     padding: 60px 0 90px;
 }
+.team-pagez {
+    position: relative;
+    display: block;
+    padding: 20px 0 90px;
+}
 
 /*--------------------------------------------------------------
 # Team Details

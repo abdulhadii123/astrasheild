@@ -42,7 +42,10 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
     />
-
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.min.css" />
     <link rel="stylesheet" href="assets/css/custom-animate.css" />
@@ -208,7 +211,13 @@
               <ul class="thm-breadcrumb list-unstyled">
                 <li><a href="index.html">Home</a></li>
                 <li><span class="icon-angle-right"></span></li>
-                <li>Medical Solution</li>
+                <li><a href="./medical_solution.html">Medical Solution</a></li>
+                <li>
+                  <span class="icon-angle-right"
+                    >Diagnostic Radiology Site</span
+                  >
+                </li>
+                <li></li>
               </ul>
             </div>
           </div>
@@ -237,104 +246,199 @@
         </div>
       </section>
 
-      <section class="related-products-one">
+      <section class="service-details">
         <div class="container">
-          <!--Start Related Products One-->
-          <div class="inner-title">
-            <h3>Products</h3>
-          </div>
           <div class="row">
-            <!--Start single shop item-->
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="shop-page-one-single">
-                <div class="img-box">
-                  <img src="assets/images/shop/product-v1-5.jpg" alt="Image" />
-                </div>
-                <div class="content-box">
-                  <div class="title">
-                    <h3>
-                      <a href="./mri-room.html">RF shielding for MRI room</a>
-                    </h3>
+            <div class="col-xl-8 col-lg-7">
+              <div class="service-details__left">
+                
+                <h3 class="service-details__title-1">
+                  Diagnostic Radiology Site Preparation
+                </h3>
+                <div class="service-details__img">
+                    <img
+                      src="assets/images/services/service-details-img-1.jpg"
+                      alt=""
+                    />
                   </div>
+                <p class="service-details__text-1">
+                  At Astra Shield, we provide comprehensive site preparation for
+                  diagnostic radiology facilities, delivering turnkey
+                  infrastructure solutions tailored to each project’s clinical,
+                  technical, and safety requirements. From initial design
+                  through to final finishing, we ensure your imaging suite is
+                  fully equipped and optimized for performance and patient
+                  comfort.
+                </p>
+                <p class="service-details__text-2">
+                  Our Radiology Site Preparation Services Include:
+                </p>
+                <ul class="service-details__points-list list-unstyled">
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b>Room Design & Layout Planning:</b>Optimized for patient
+                      workflow, equipment placement, shielding zones, and
+                      technician accessibility.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b>Ceiling Structures: </b>Design, simulation,
+                      fabrication, and installation of robust ceiling-mounted
+                      supports for CT, X-ray, and fluoroscopy equipment,
+                      engineered to meet OEM load and safety requirements.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b>Electrical & Cabling Systems: </b>Complete electrical
+                      setup including power distribution, UPS backup, grounding,
+                      along with professional cabling and conduiting to support
+                      imaging systems and IT infrastructure.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b> HVAC & Ducting Installation: </b>Specialized HVAC
+                      design with precise temperature and humidity control,
+                      including duct installation to manage airflow,
+                      ventilation, and MRI cryogen venting needs.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b> Trenching & Mechanical Works: </b>Installation of
+                      trenches for cabling and piping, plus mechanical supports
+                      for heavy equipment and accessories.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b> Interior Finishing & Design: </b>Comprehensive
+                      interior finishing services including painting, interior
+                      décor (ID) works, installation of mood lighting, RGB
+                      lighting systems, picture panels, and MRI-compatible
+                      materials to create a comfortable and visually appealing
+                      environment.
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b> Shielding Integration: </b>Coordination with lead or
+                      RF shielding systems ensuring regulatory compliance and
+                      patient safety..
+                    </p>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <span class="icon-arrow-right"></span>
+                    </div>
+                    <p>
+                      <b> Safety & Compliance Features:</b>Incorporation of
+                      radiation signage, emergency power, fire safety measures,
+                      and safety zoning.
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-5">
+              <div class="service-details__sidebar">
+                <div class="service-details__services-box">
+                    <h3 class="service-details__services-title">Supported Imaging Modalities:</h3>
+                    <ul class="service-details__services-list list-unstyled">
+                      <li><a onclick="showModal('MRI')">MRI</a></li>
+                      <li><a onclick="showModal('CT')">CT</a></li>
+                      <li><a onclick="showModal('X-Ray')">X-Ray</a></li>
+                      <li><a onclick="showModal('PET-CT')">PET-CT</a></li>
+                      <li><a onclick="showModal('Fluoroscopy')">Fluoroscopy</a></li>
+                      <li><a onclick="showModal('Mammography')">Mammography</a></li>
+                    </ul>
+                  </div>
+                
+                
+                 <!-- Modal -->
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span id="modalTitle"></span>
+        <span class="close" onclick="closeModal()">&times;</span>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+                  
+              
+                
+                <div class="project-details__get-started">
+                  <h3 class="project-details__get-started-title">
+                    Key Features of Our Service:
+                  </h3>
+                  
+                  <ul class="project-details__get-started-points list-unstyled">
+                    <li>
+                      <div class="icon">
+                        <span class="icon-minus"></span>
+                      </div>
+                      <p>Coordination with OEMs and facility engineers</p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="icon-minus"></span>
+                      </div>
+                      <p>Adherence to equipment-specific safety and handling protocols
+                      </p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="icon-minus"></span>
+                      </div>
+                      <p>
+                        Use of specialized tools and lifting systems
+                      </p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="icon-minus"></span>
+                      </div>
+                      <p>
+                        Clean, efficient, and timeline-driven execution
+                      </p>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="icon-minus"></span>
+                      </div>
+                      <p>
+                        Post-installation support for testing and acceptance
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <!--End single shop item-->
-            <!--Start single shop item-->
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="shop-page-one-single">
-                <div class="img-box">
-                  <img src="assets/images/shop/product-v1-1.jpg" alt="Image" />
-                </div>
-                <div class="content-box">
-                  <div class="title">
-                    <h3>
-                      <a href="./magnetic-sheilding.html"
-                        >Magnetic Shielding Solutions</a
-                      >
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--End single shop item-->
-
-            <!--Start single shop item-->
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="shop-page-one-single">
-                <div class="img-box">
-                  <img src="assets/images/shop/product-v1-4.jpg" alt=" Image" />
-                </div>
-                <div class="content-box">
-                  <div class="title">
-                    <h3>
-                      <a href="./diagnostic.html"
-                        >Diagnostic Radiology Site Preparation</a
-                      >
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--End single shop item-->
-
-            <!--Start single shop item-->
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="shop-page-one-single">
-                <div class="img-box">
-                  <img src="assets/images/shop/product-v1-5.jpg" alt="Image" />
-                </div>
-                <div class="content-box">
-                  <div class="title">
-                    <h3>
-                      <a href="./radiation-shielding.html"
-                        >Radiation Shielding / Lead Shielding
-                      </a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--End single shop item-->
-
-            <!--Start single shop item-->
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="shop-page-one-single">
-                <div class="img-box">
-                  <img src="assets/images/shop/product-v1-5.jpg" alt="Image" />
-                </div>
-                <div class="content-box">
-                  <div class="title">
-                    <h3>
-                      <a href="./diagnostic.html"
-                        >Installation of Diagnostic Imaging Equipment</a
-                      >
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--End single shop item-->
           </div>
         </div>
       </section>
@@ -549,6 +653,82 @@
       ></span>
       <span class="scroll-to-top__text"> Go Back Top</span>
     </a>
+
+
+    <script>
+        const contentMap = {
+          "MRI": `
+            <p>MRI (Magnetic Resonance Imaging): </p>
+            <ul>
+              <li>Machine Rigging, positioning, and alignment</li>
+              <li>Magnet room site pre-installation works </li>
+              <li>Cryogen vent pipe  (Quench Pipe) connection and system readiness</li>
+              <li>Vendor/OEM coordination for system commissioning</li>
+            </ul>
+          `,
+          "CT": `
+            <p>CT (Computed Tomography): </p>
+            <ul>
+              <li>CT gantry and table installation</li>
+              <li>Power and data cable routing</li>
+              <li>Integration with control consoles and patient handling systems</li>
+              <li>Calibration and pre-commissioning support to the OEM</li>
+            </ul>
+          `,
+          "X-Ray": `
+            <p>X-Ray Systems: </p>
+            <ul>
+              <li>Accurate mounting and positioning of X-ray tubes and detectors</li>
+              <li>Assembly of ceiling or floor stands</li>
+              <li>Connection of cables, consoles, and power units</li>
+              <li>System boot-up assistance</li>
+            </ul>
+          `,
+          "PET-CT": `
+            <p>PET-CT (Positron Emission Tomography): </p>
+            <ul>
+              <li>Handling and alignment of dual-modality units</li>
+              <li>Interface preparation with existing infrastructure</li>
+              <li>Ventilation checks and isotope workflow coordination</li>
+            </ul>
+          `,
+          "Fluoroscopy": `
+            <p>Fluoroscopy Units</p>
+            <ul>
+              <li>Assembly and alignment of dynamic imaging systems</li>
+              <li>Integration of image intensifiers or flat panel detectors</li>
+              <li>Setup of foot controls, monitors, and workstations</li>
+              <li>OEM compliance coordination</li>
+            </ul>
+          `,
+          "Mammography": `
+            <p>Mammography details:</p>
+            <ul>
+              <li>Specialized breast imaging</li>
+              <li>Low-dose radiation</li>
+              <li>Used for cancer screening</li>
+            </ul>
+          `
+        };
+      
+        function showModal(modality) {
+          document.getElementById("modalTitle").innerText = modality;
+          document.getElementById("modalBody").innerHTML = contentMap[modality];
+          document.getElementById("infoModal").style.display = "block";
+        }
+      
+        function closeModal() {
+          document.getElementById("infoModal").style.display = "none";
+        }
+      
+        window.onclick = function(event) {
+          const modal = document.getElementById("infoModal");
+          if (event.target === modal) {
+            closeModal();
+          }
+        }
+      </script>
+
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
