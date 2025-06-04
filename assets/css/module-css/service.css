@@ -615,7 +615,7 @@
 .service-details {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    padding: 0px 0 90px;
     z-index: 1;
 }
 
@@ -642,6 +642,7 @@
     line-height: 58px;
     letter-spacing: -1.44px;
     margin-bottom: 30px;
+    margin-top: 20px;
     color: var(--erepair-base);
 }
 
